@@ -1,5 +1,5 @@
-(ns tron.core)
-  (:require [quil.core :as q])
+(ns tron.core
+  (:require [quil.core :as q]))
 
 (def size "size of the square arena" 100)
 (def scale 10)

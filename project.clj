@@ -6,7 +6,8 @@
   :main tron.bots
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [quil "1.6.0"]
+                 [org.jeromq/jeromq "0.2.0"]
                  ;; comment next form if java >= 7
-                 [org.codehaus.jsr166-mirror/jsr166y "1.7.0"]
+                 #_[org.codehaus.jsr166-mirror/jsr166y "1.7.0"]
                  ])
 
