@@ -10,7 +10,8 @@ Thankyou to Sam Aaron, Christophe Grand, Edmund Jackson, Meikel Brandmeyer
 
 Implement a function in bots.clj similar to buzz.clj.
 
-
+Start a battle with
+(tron/spawn-biker buzz)
 
 ## License
 

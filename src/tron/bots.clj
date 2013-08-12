@@ -1,14 +1,19 @@
-(ns ldnclj-2013-aug-fwd-tron.bots
-  (:require [ldnclj-2013-aug-fwd-tron.core :as tron]))
+(ns tron.bots
+  (:require [tron.core :as tron]))
 
 ; Implement a strategy similar to Buzz!!
-(defn buzz 
+(defn buzz
   "To infinity and beyond!"
   [look {[x y] :pos}]
   {:pos [(inc x) y]})
 
 ; Choose a TEAM colour
-;(def red 1)
+(def red 1)
+(def orange 25)
+(def yellow 50)
+(def green 100)
+(def blue 150)
+(def purple 200)
 
 ; Start the battle
 ;(tron/spawn-biker buzz red)
@@ -18,3 +23,7 @@
 
 ; Reset the arena
 ;(tron/blank-arena)
+
+
+(defn -main []
+  (tron/spawn-biker buzz red))

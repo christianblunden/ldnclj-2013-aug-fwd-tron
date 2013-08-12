@@ -1,4 +1,4 @@
-(ns ldnclj-2013-aug-fwd-tron.core)
+(ns tron.core)
   (:require [quil.core :as q])
 
 (def size "size of the square arena" 100)
