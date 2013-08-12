@@ -8,10 +8,21 @@ Thankyou to Sam Aaron, Christophe Grand, Edmund Jackson, Meikel Brandmeyer
 
 ## Usage
 
-Implement a function in bots.clj similar to buzz.clj.
+Implement a function in bots.clj similar to buzz.clj
 
-Start a battle with
-(tron/spawn-biker buzz)
+Start a battle in the repl with
+
+    (require '[tron.core :as tron])
+    (use '[tron.bots])
+    (tron/spawn-biker buzz)
+
+Stop the play
+
+    (tron/stop!)
+
+Reset the amphitheatre
+
+    (tron/blank-arena)
 
 ## License
 
